@@ -16,21 +16,23 @@
   - Iniciar el Proyecto - Git ✅
   - Seteo de docker con base de datos - visualizador - pull de dos contenedores
     ✅
-  - Crear los frontend y backend | `Nextjs` | `ASP.NET Core`
-  - Setear los proyectos
-  - Inicar el monorepositorio `pnpm workspaces`
+  - Crear los frontend | `Nextjs` ✅
+  - Crear el backend | `ASP.NET Core` ✅
+  - Setear los proyectos ✅
+  - Inicar el monorepositorio `pnpm workspaces` ✅
   - Crear los scripts de ejecucion
-    - Ambos
+    - Ambos ✅
       - `dev` entorno de development
       - `build` buildear el Proyecto
       - `start` iniciar el Proyecto
-    - Frontend
+    - Frontend ✅
       - `lint` para verificar el codigo
-    - Backend
+      - `format` para formatear el codigo
+    - Backend ✅
       - `migrate` nos crear las migraciones de ef core
       - `reset:db` reiniciar la base de datos
-  - Crear el entidad relacion con eraser.io
   - CI/CD
+  - Crear el entidad relacion con eraser.io
 
 - Route Map backend
 

@@ -33,9 +33,9 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin
-      PGADMIN_LISTEN_PORT: 4040
+      PGADMIN_LISTEN_PORT: 2020
     ports:
-      - 4040:4040
+      - 2020:2020
     volumes:
       - movie-db-admin-data:/var/lib/pgadmin
     depends_on:

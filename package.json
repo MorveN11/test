@@ -1,12 +1,23 @@
 {
   "name": "test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A Database of Movies",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm --parallel build",
+    "build:norestore": "pnpm -F=api build:norestore",
+    "build:compose": "pnpm -F=api build:compose",
+    "dev": "pnpm --parallel dev",
+    "start": "pnpm --parallel start",
+    "down": "pnpm -F=api down",
+    "restore": "pnpm -F=api restore",
+    "migrate": "pnpm -F=api migrate",
+    "lint": "pnpm -F=client lint",
+    "format": "pnpm -F=client format"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Manuel Morales",
+    "email": "morales.patty.jose@gmail.com"
+  },
+  "license": "MIT"
 }

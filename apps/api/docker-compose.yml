@@ -1,0 +1,17 @@
+networks:
+  test_movie_network:
+    external: true
+
+services:
+  movie.api:
+    image: movie.api:latest
+    container_name: movie.api
+    hostname: movie.api
+    restart: on-failure
+    build:
+      context: .
+      dockerfile: src/Movie.Api/Dockerfile
+    ports:
+      - 5001:8080
+    networks:
+      - test_movie_network
