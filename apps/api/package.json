@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "scripts": {
+    "build": "dotnet build",
+    "build:norestore": "dotnet build --no-restore",
+    "build:compose": "docker compose down && docker compose build",
+    "dev": "dotnet watch run --project ./src/Movie.Api/Movie.Api.csproj",
+    "start": "docker compose up",
+    "down": "docker compose down",
+    "reset:db": "docker volume rm --force test_movie-db-data",
+    "restore": "dotnet restore",
+    "migrate": "rm -Rf ./src/Infrastructure/Migrations && dotnet ef migrations add Migrations --project ./src/Infrastructure/ --startup-project ./src/Movie.Api/"
+  }
+}

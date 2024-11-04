@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A Database of Movies",
+  "scripts": {
+    "build": "pnpm --parallel build",
+    "build:norestore": "pnpm -F=api build:norestore",
+    "build:compose": "pnpm -F=api build:compose",
+    "dev": "pnpm --parallel dev",
+    "start": "pnpm --parallel start",
+    "down": "pnpm -F=api down",
+    "restore": "pnpm -F=api restore",
+    "migrate": "pnpm -F=api migrate",
+    "lint": "pnpm -F=client lint",
+    "format": "pnpm -F=client format",
+    "prepare": "husky"
+  },
+  "author": {
+    "name": "Manuel Morales",
+    "email": "morales.patty.jose@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

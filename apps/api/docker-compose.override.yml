@@ -1,0 +1,8 @@
+services:
+  movie.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Staging
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ApplyMigrations=true
+    ports:
+      - '8080'
