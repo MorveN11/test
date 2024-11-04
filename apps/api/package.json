@@ -1,9 +1,9 @@
 {
   "name": "api",
   "scripts": {
-    "build": "dotnet build",
+    "build": "docker compose down && docker compose build",
+    "build:nocompose": "dotnet build",
     "build:norestore": "dotnet build --no-restore",
-    "build:compose": "docker compose down && docker compose build",
     "dev": "dotnet watch run --project ./src/Movie.Api/Movie.Api.csproj",
     "start": "docker compose up",
     "down": "docker compose down",
