@@ -5,8 +5,8 @@
   "description": "A Database of Movies",
   "scripts": {
     "build": "pnpm --parallel build",
+    "build:nocompose": "pnpm -F=api build:nocompose",
     "build:norestore": "pnpm -F=api build:norestore",
-    "build:compose": "pnpm -F=api build:compose",
     "dev": "pnpm --parallel dev",
     "start": "pnpm --parallel start",
     "down": "pnpm -F=api down",
