@@ -32,16 +32,18 @@
       - `migrate` nos crear las migraciones de ef core
       - `reset:db` reiniciar la base de datos
   - CI/CD
-  - Crear el entidad relacion con eraser.io
+  - Deployment
 
 - Route Map backend
 
+  - Crear el entidad relacion con eraser.io
   - Crear las entidades, La capa de Dominio
   - Crear las infrastructura, Ef core, Postgresql
     - Crear un seed data, ingresar datos de prueba cuando se levanta el proyecto
       (opcional)
   - Crear la capa de aplicacion, Crear un usuario, Eliminar un usuario
   - Crear los endpoints los controladores de mi API
+  - Test Unitario
 
 - Route Map Frontend
 
@@ -52,5 +54,3 @@
   - Home Page, principal,
   - ActorCard, ActorPage
   - Nav bar, search bar
-
-- Test unitraios
