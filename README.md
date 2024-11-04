@@ -15,6 +15,7 @@
 
   - Iniciar el Proyecto - Git ✅
   - Seteo de docker con base de datos - visualizador - pull de dos contenedores
+    ✅
   - Inicar el monorepositorio `pnpm workspaces`
   - Crear los frontend y backend | `Nextjs` | `ASP.NET Core`
   - Setar los proyectos
